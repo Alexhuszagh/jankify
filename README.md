@@ -92,4 +92,4 @@ copy = jankify.AsianJunkieTweet.from_json()
 
 ## License
 
-Publid Domain
+(Unlicense) Public Domain
