@@ -44,6 +44,13 @@ asianjunkie_model.scrape()
 
 **Warning** In order to fetch Tweets, you must register a client application with Twitter from `https://developer.twitter.com/`. You must place these items in [tweepy.json](/data/tweepy.json).
 
+The following classes support the Twitter protocol:
+
+- AsianJunkieTweet
+- KpopalypseTweet
+
+For example, to download the most recent 3,200 Tweets (the limit for Twitter's free API) from `@asianjunkiecom`, you would use:
+
 ```python
 asianjunkie_model = jankify.AsianJunkieTweet()
 asianjunkie_model.download()
